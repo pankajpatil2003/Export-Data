@@ -1,0 +1,34 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+
+# Environment variables
+.env
+
+# Django specific
+*.log
+*.pot
+*.py[cod]
+.vscode/
+.idea/
+local_settings.py
+db.sqlite3
+media/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Other
+*.sqlite3
+
+# APIs app
+/apis/migrations/
